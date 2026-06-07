@@ -302,6 +302,41 @@ covers the whole screen, so the player still feels inside the Hongdae world. Rew
 feedback uses short, satisfying pixel-style floating text and small modal cards
 ("+30 XP", "Phrase unlocked!", "Friendship increased!", "New badge earned!").
 
+## Audio & sound design
+
+Sound is a core part of the cozy identity, not an afterthought: **"cozy Seoul street
+ambience + cute pixel-RPG feedback + beginner-friendly language learning."** The mood is
+warm, youthful, lightly energetic, nostalgic, and relaxing — never combat-like, arcade-y,
+casino-like, cyberpunk, or corporate. Audio is always **optional**: every sound-based cue
+also has a visible visual cue, so the game is fully understandable with sound off.
+
+- **Area background music** — looping, seamless tracks that change by location (main
+  Hongdae street, cafe, street food area, busking zone, noraebang alley, study cafe) with
+  **soft crossfades** between areas (never abrupt cuts). Music ducks during dialogue
+  lessons and under reward/feedback sounds so Korean stays the focus.
+- **Ambience** — subtle, layered location ambience (street murmur, cafe clinks, sizzling
+  food, store chimes, busking crowd, neon buzz, subway rumble), kept alive but never noisy.
+- **Movement** — light, short pixel footsteps that vary by surface and play only while
+  moving (never during dialogue).
+- **Interaction & UI sounds** — soft, cute pixel cues for prompts, confirms, dialogue
+  open/close, menu/tab/journal sounds, and object interactions; nothing sharp or loud.
+- **Learning & reward feedback** — calm, encouraging cues: phrase-reveal chime, correct
+  (warm sparkle) vs. wrong (soft, supportive, never a buzzer), phrase-unlocked, XP, coins,
+  level-up fanfare, quest updated/completed, badge earned, friendship up, streak up,
+  hearts lost/restored. A simple priority/mixing rule prevents too many sounds at once.
+- **NPC talk blips** — per-NPC dialogue blips (classic RPG style) that play lightly as text
+  appears; toggleable.
+- **Pronunciation audio** — each phrase has an optional audio field and a small speaker
+  button in the Phrasebook and Dialogue Modal; it plays on demand only (never auto-plays,
+  never fake TTS by default) and shows "Audio coming soon." when no file exists.
+- **AudioManager** — a lightweight utility handles play/stop, looping, crossfade,
+  mute/unmute, and volume per category (Music, Ambience, UI, Interaction, Learning,
+  Rewards, Dialogue blips, Pronunciation), with graceful fallback if assets are missing
+  (the app never crashes on a missing sound).
+- **Audio settings** (saved to localStorage) — toggles for Music, Sound effects, Dialogue
+  blips, and Pronunciation audio, plus Master / Music / SFX volume. Defaults: music on,
+  SFX on, blips on, pronunciation on; master 70%, music 45%, SFX 70%.
+
 ## Strategic principles & scope guardrails
 
 - View is **top-down orthographic only** — never side-scrolling, 3D, isometric,
