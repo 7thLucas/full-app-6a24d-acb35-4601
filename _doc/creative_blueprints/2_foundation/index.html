@@ -1,0 +1,47 @@
+<style>
+  .mode-landscape .sl-grid { flex-direction: row; }
+  .mode-portrait .sl-grid { flex-direction: column; }
+  .mode-landscape .sl-visual { width: 34%; }
+  .mode-portrait .sl-visual { min-height: 28%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-grid flex w-full h-full">
+    <div class="flex-1 flex flex-col justify-center p-12">
+      <span class="text-sm font-semibold tracking-[0.25em] uppercase mb-8" style="color:#C2683B">The Foundation</span>
+
+      <div class="flex flex-col gap-6">
+        <!-- Problem -->
+        <div class="rounded-2xl p-7 border" style="border-color:#F0D9C8;background:#FFF7F0">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-bold" style="background:#C2683B">!</span>
+            <h2 class="text-2xl font-bold text-slate-900">The problem</h2>
+          </div>
+          <p class="text-lg leading-relaxed text-slate-600">
+            Beginners learn Korean through flashcards and quiz screens, then freeze the moment
+            they have to actually order a coffee or ask for directions in Seoul. The drills feel
+            like homework, not like life — so confidence never arrives.
+          </p>
+        </div>
+
+        <!-- Solution -->
+        <div class="rounded-2xl p-7 text-white" style="background:#1F2A44">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold" style="background:#F5A05A;color:#1F2A44">✓</span>
+            <h2 class="text-2xl font-bold">The solution</h2>
+          </div>
+          <p class="text-lg leading-relaxed text-white/85">
+            A compact, living pixel-art Hongdae you actually explore. Press <span class="font-bold" style="color:#F5A05A">E</span> to
+            talk to a barista, a street-food vendor, a busker. Every shop, sign, and NPC teaches a
+            real phrase you need to progress — learning embedded in the world, never a quiz app.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sl-visual relative overflow-hidden" style="background:#FCE7D4">
+      <img class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=cozy%20pixel%20art%20chibi%20character%20talking%20to%20a%20friendly%20street%20food%20vendor%20at%20a%20Korean%20food%20cart%2C%20speech%20dialogue%20box%20with%20hangul%2C%20warm%20evening%20lighting%2C%20top-down%20RPG%2C%20original%20detailed%20pixel%20art"
+        alt="Chibi player talking to a Hongdae street-food vendor" />
+    </div>
+  </div>
+</section>
