@@ -64,6 +64,102 @@ Practical, situation-based Korean a real beginner would use in Seoul:
 - Reading basic Korean signs
 - Understanding common casual expressions
 
+## Learning mechanics
+
+Lessons are embedded in conversation, never presented as a quiz screen. Each NPC
+interaction follows a consistent rhythm:
+
+1. **Situation setup** — the NPC frames a real-life scenario in plain English
+   ("You want to order one iced americano. What should you say?").
+2. **Korean challenge** — the player is shown choices and picks the natural phrase.
+3. **Gentle feedback** — correct answers are praised warmly; wrong answers get an
+   encouraging, non-punishing correction that points to the right phrase.
+4. **Reward** — XP (and often coins), a short "Phrase unlocked!" message.
+5. **Phrasebook save** — the phrase is added to the player's persistent phrasebook.
+
+Every new phrase is always shown as **Hangul first, then romanization, then a natural
+English meaning, then a short practical usage note** — never romanization-only, and never
+a long grammar lecture. Korean is accurate and beginner-appropriate: polite forms are
+taught first, and when a casual form appears it is flagged as casual (use with friends).
+
+### Lesson types
+
+To keep learning varied, interactions use more than one format:
+
+1. **Multiple choice** — pick the correct Korean phrase from three options.
+2. **Meaning match** — see a Korean phrase, choose its English meaning.
+3. **Situation match** — see a real-life situation, choose the most natural response.
+4. **Fill the missing word** — complete a phrase (e.g. 아이스 아메리카노 ___ 주세요).
+5. **Object vocabulary** — interact with an object (menu board, vending machine) to
+   unlock a small set of words.
+
+Feedback tone is always casual and encouraging ("Nice! That sounds natural.", "Almost —
+that phrase is for a different situation."). The player is never shamed for mistakes.
+
+## Quests
+
+Learning is organized into a beginner questline tied to real Hongdae situations. Each
+quest has a title, location, required NPC/object, target phrases, an objective checklist,
+and rewards (XP, coins, phrase unlocks, and sometimes a friendship or badge reward).
+
+**Main questline** (a clear arrival → order → buy food → shop → directions → friends →
+enjoy Hongdae journey), unlocking progressively:
+
+1. Arrive in Hongdae (greetings, "어디예요?", 홍대입구역)
+2. Order Your First Coffee (cafe barista)
+3. Buy Street Food (street food vendor)
+4. Convenience Store Survival (cashier, payment)
+5. Find the Noraebang (directions)
+6. Make a Korean Friend (introductions, casual chat)
+7. Compliment the Busker (compliments, photos)
+8. Hongdae Night Out (noraebang booking, time & people)
+
+**Side quests** are optional, object-driven mini-lessons: Read Your First Korean Sign,
+Vending Machine Practice, Photo Booth Memory, and Cafe Menu Reader.
+
+A small, compact pixel quest tracker shows the active quest and objectives on the game
+screen; a Quest Log menu lists active, completed, and locked quests with their rewards.
+
+## Progression & motivation systems
+
+The progression makes learning feel like a cozy RPG adventure, not a study app. Every
+phrase learned and conversation completed is a small, visible win.
+
+- **Player level** — Level 1 to 10, each with a flavor name (Lost in Hongdae → Cafe
+  Beginner → … → Hongdae Local). XP fills a bar; leveling up shows a cheerful pixel
+  reward modal and grants coins.
+- **Korean Confidence Score** — a separate 0–100 progress bar with tiers (Nervous
+  Beginner → Getting Comfortable → Can Survive Hongdae → Confident Speaker → Hongdae
+  Conversation Hero), rising as the player completes challenges, finishes conversations,
+  and reviews phrases.
+- **Coins** — a soft, non-monetary reward currency earned from quests, daily phrases, and
+  milestones; spendable on cosmetic/learning rewards only. No microtransactions, no real
+  money, no paid store.
+- **Hearts / energy** — the player starts with 5; a wrong answer costs one. Running out
+  never locks the player out — it gently nudges them to review ("No worries. Let's review
+  your phrases first."). Hearts recover through review, easy practice, or the next day.
+- **Daily streak** — a flame counter that grows when the player does at least one small
+  thing a day. Encouraging, never stressful; missing a day is met with a warm welcome
+  back, not shame.
+- **Daily phrase** — a "Today's Korean Phrase" card with Hangul, romanization, meaning,
+  usage, and a quick mini-challenge; completing it once a day adds XP, coins, and streak.
+- **NPC friendship** — each core NPC has a friendship level (Stranger → Familiar Face →
+  Friendly → Hongdae Buddy). Friendship grows by completing their lessons and choosing
+  natural answers, and unlocks more casual phrases over time.
+- **Badges** — collectible milestone badges (e.g. First Conversation, Cafe Beginner,
+  Phrase Collector, 3-Day Streak, Korean Conversation Hero) shown in a small collection
+  screen.
+
+### The phrasebook & phrase mastery
+
+The phrasebook is the player's collection. Phrases are grouped into categories — Basics,
+Cafe, Food, Shopping, Directions, Friends, Compliments, Noraebang, Signs, Slang — each
+showing unlock progress. Every entry stores the Korean, romanization, English meaning,
+category, situation, source NPC/object, and usage note. Each phrase also has a **mastery
+status** that deepens with review and reuse: **New → Practiced → Remembered →
+Confident**. A light, friendly review loop (quick RPG-style practice cards) rewards the
+player with XP and Confidence for revisiting phrases.
+
 ## The world: a compact pixel Hongdae
 
 A top-down orthographic, tile-based, explorable map. Compact but dense, alive, and full of
