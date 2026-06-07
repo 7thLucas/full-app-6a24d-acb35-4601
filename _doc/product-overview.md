@@ -271,6 +271,24 @@ The visual inspiration is the comforting, charming, detailed cozy feel of Starde
 **feeling only**. All assets, characters, buildings, UI, tiles, maps, and sprites must be
 **original** and not copied from any existing game.
 
+### Pixel craft spec
+
+The art must read as **handcrafted, intricate, tiny-square pixel art** — not smooth
+illustration, vector, 3D, HD anime, or chunky Minecraft-like blocks. The whole world sits
+on a **16×16 px base tile grid** (every ground, road, alley, floor, wall, prop, and
+collision tile aligns to it), with characters and NPCs at ~16×32 / 24×32 px (≈2 tiles
+tall) and props from 8×8 up to large 96×64 px storefronts. Everything renders at **3×–4×
+nearest-neighbor** scale: crisp, visible square pixels, **no anti-aliasing, no smoothing,
+no soft gradients, no realistic lighting or bloom**. Perspective is top-down 2D with
+slightly front-facing buildings, signs, and props (never side-scroller, isometric, or 3D).
+Tiles carry tiny handmade detail (cracks, speckles, darker edges, small shadows) so the
+ground is never flat; lighting/shadows are pixel-blocked, with small warm window/neon dots
+for evening glow. Palette stays warm, muted, and nostalgic (beige pavement, cream panels,
+muted blue/green, warm yellow, soft pink/red, dusty-blue shadows). Korean text always
+stays readable: a clean sans-serif renders Hangul, romanization, and meanings, while a
+pixel font is reserved for titles, buttons, and small labels. The project is structured so
+real pixel-art assets can be swapped in for placeholders later.
+
 ## UI direction
 
 A cozy RPG HUD, not a corporate learning platform: pixel-style panels, small icons, soft
