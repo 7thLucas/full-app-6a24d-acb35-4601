@@ -242,8 +242,13 @@ a quest — never random. At least eight:
 - **Interaction** — a pixel-style "Press E to interact" prompt appears only when close
   enough; E opens NPC dialogue, an object learning card, a mini phrase lesson, a quest
   trigger, or an environmental description.
-- **Progression** — XP, coins, friendship points, phrase unlocks, and a persistent
-  phrasebook.
+- **Progression** — a full cozy-RPG progression layer: XP and player levels (1–10), a
+  Korean Confidence Score, coins, hearts, a daily streak, daily phrase, NPC friendship
+  levels, badges, a quest system, and a persistent phrasebook with phrase mastery. See
+  *Quests* and *Progression & motivation systems* above.
+- **Persistence** — all progress (level, XP, coins, hearts, streak, last daily date,
+  active/completed quests, learned phrases and mastery, friendship levels, badges, and
+  Korean Confidence) is saved locally via `localStorage` and restored on return.
 
 ## Art direction
 
