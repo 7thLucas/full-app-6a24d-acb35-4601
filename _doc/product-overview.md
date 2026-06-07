@@ -298,6 +298,14 @@ feedback uses short, satisfying pixel-style floating text and small modal cards
 - At least 8 interactive objects
 - Keyboard movement (WASD + arrows)
 - Press E to interact
-- Dialogue box system
-- Basic XP and phrase-unlock system
+- Pixel dialogue box system with the situation → challenge → feedback → reward → save flow
+- 6 NPC lesson conversations, 3 challenges each (18 phrase challenges total)
+- Multiple lesson types (multiple choice, meaning match, situation match, fill-the-word,
+  object vocabulary)
+- XP, levels (1–10), Korean Confidence, coins, hearts, and a daily streak + daily phrase
+- At least 8 main quests and 4 side quests, with a quest tracker and quest log
+- Phrasebook collection with categories and phrase mastery (New → Practiced → Remembered
+  → Confident)
+- NPC friendship levels and a badge collection
+- Local progress saving via `localStorage`
 - A cozy pixel RPG visual direction
