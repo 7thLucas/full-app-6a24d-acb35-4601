@@ -268,8 +268,15 @@ The visual inspiration is the comforting, charming, detailed cozy feel of Starde
 ## UI direction
 
 A cozy RPG HUD, not a corporate learning platform: pixel-style panels, small icons, soft
-rounded boxes, readable text. On screen: Level, XP bar, Streak, Coins, Current quest,
-Interaction prompt, Phrasebook button, and a Dialogue box when talking to NPCs.
+rounded boxes, readable text. On screen: top-left Level + XP bar; top center/right Streak,
+Coins, and Hearts; a compact quest tracker on the right; the interaction prompt; and a
+bottom dialogue box when talking to NPCs. Menus open the Phrasebook, Quest Log, Badges,
+and Settings. The dialogue box is a rounded pixel panel pinned to the bottom of the
+screen (NPC name tag, small avatar, Korean phrase + romanization + meaning, answer
+buttons with hover/correct/wrong highlights, and a small XP reward animation) — it never
+covers the whole screen, so the player still feels inside the Hongdae world. Reward
+feedback uses short, satisfying pixel-style floating text and small modal cards
+("+30 XP", "Phrase unlocked!", "Friendship increased!", "New badge earned!").
 
 ## Strategic principles & scope guardrails
 
