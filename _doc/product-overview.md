@@ -248,7 +248,13 @@ a quest — never random. At least eight:
   *Quests* and *Progression & motivation systems* above.
 - **Persistence** — all progress (level, XP, coins, hearts, streak, last daily date,
   active/completed quests, learned phrases and mastery, friendship levels, badges, and
-  Korean Confidence) is saved locally via `localStorage` and restored on return.
+  Korean Confidence) plus character data and settings is saved locally via `localStorage`
+  under the key `hongdaeKoreanQuestSave` (shape: `{ player, progress, settings,
+  lastSavedAt }`) and restored on return. Saves happen automatically after meaningful
+  events (lesson complete, phrase unlock, XP/coin/heart change, level up, quest progress,
+  friendship/badge/streak change, settings change). **Continue** loads the saved game and
+  is disabled/grayed when no save exists; **Settings** offers **Reset Progress** behind a
+  confirmation.
 
 ## Art direction
 
