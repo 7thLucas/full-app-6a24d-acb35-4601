@@ -1,0 +1,49 @@
+<style>
+  .mode-landscape .sl-grid { flex-direction: row; }
+  .mode-portrait .sl-grid { flex-direction: column; }
+  .mode-portrait .sl-visual { min-height: 38%; }
+  .mode-landscape .sl-visual { width: 42%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-grid flex w-full h-full">
+    <!-- Content column -->
+    <div class="flex-1 flex flex-col justify-between p-12">
+      <div class="flex items-center gap-3">
+        <span class="inline-block w-3 h-3 rounded-sm" style="background:#F5A05A"></span>
+        <span class="text-sm font-semibold tracking-[0.25em] uppercase" style="color:#C2683B">Hongdae Korean Quest</span>
+      </div>
+
+      <div>
+        <p class="text-base font-semibold mb-4" style="color:#7C8AA5">A cozy pixel JRPG for learning Korean</p>
+        <h1 class="font-black leading-[0.95] tracking-tight text-slate-900" style="font-size:4.4rem">
+          Learn Korean by<br><span style="color:#C2683B">living in Hongdae.</span>
+        </h1>
+        <p class="mt-6 text-xl leading-relaxed text-slate-600 max-w-xl">
+          Duolingo turned into a cozy pixel RPG world. Walk a tiny pixel-art Hongdae, talk to
+          locals, order food, make friends — and pick up real Korean because you need it to
+          explore.
+        </p>
+      </div>
+
+      <div class="mt-8">
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="px-3 py-1.5 rounded-full text-sm font-medium text-white" style="background:#C2683B">Top-down pixel RPG</span>
+          <span class="px-3 py-1.5 rounded-full text-sm font-medium" style="background:#FCE7D4;color:#9A4E26">Beginner Korean</span>
+          <span class="px-3 py-1.5 rounded-full text-sm font-medium" style="background:#E5ECF5;color:#465A7E">Set in Seoul</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual relative overflow-hidden" style="background:#1F2A44">
+      <img class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=cozy%2016-bit%20top-down%20pixel%20art%20RPG%20scene%20of%20Hongdae%20Seoul%20at%20golden%20hour%2C%20warm%20neon%20Korean%20signs%2C%20indie%20cafes%2C%20street%20food%20carts%2C%20chibi%20character%20walking%2C%20detailed%20charming%20original%20pixel%20tiles%2C%20warm%20evening%20glow"
+        alt="Pixel-art Hongdae at golden hour" />
+      <div class="absolute inset-0" style="background:linear-gradient(120deg,rgba(31,42,68,0.55),rgba(31,42,68,0) 55%)"></div>
+      <div class="absolute bottom-6 left-6 right-6">
+        <p class="text-white/90 text-sm font-medium tracking-wide">홍대 · Hongdae, Seoul — golden hour</p>
+      </div>
+    </div>
+  </div>
+</section>
