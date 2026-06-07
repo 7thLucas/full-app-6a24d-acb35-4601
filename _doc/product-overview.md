@@ -351,6 +351,15 @@ also has a visible visual cue, so the game is fully understandable with sound of
 
 ## First prototype scope
 
+Built in React, no backend, all state in `localStorage`. The app is organized as nine
+screens — Start, Character Setup, Game, Dialogue/Lesson Modal, Phrasebook, Quest Log, Badge
+Collection, Daily Phrase, and Settings — desktop/laptop/large-tablet first, but kept
+playable and readable on smaller screens.
+
+- A **Character Setup** step before a new game: name (default **Alex**) plus simple avatar,
+  outfit color, hair color, and backpack color, saved to localStorage
+- A **Settings** screen styled as a pixel RPG menu: audio controls, text speed, show/hide
+  romanization, show/hide English meaning, and Reset Progress (with confirmation)
 - One playable Hongdae map
 - One controllable player character
 - At least 6 NPCs
